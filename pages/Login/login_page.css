@@ -1,0 +1,63 @@
+@import url("https://pixelcss.netlify.app/import.css");
+@import "../shared.css";
+
+.checkbox-input {
+  width: 12px;
+  height: 12px;
+}
+.checkbox {
+  color: var(--dark-accent);
+}
+
+.center-div {
+  height: 91vh;
+  background-color: var(--bg-dull);
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  width: 30rem;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.card__actions {
+  justify-content: space-around;
+  width: 100%;
+  color: black;
+}
+
+.secondary-btn {
+  width: 70%;
+  text-align: center;
+}
+
+.login-inputs {
+  width: 100%;
+}
+.navbar_header > a > i {
+  color: var(--txt-color);
+}
+.card__info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbox {
+  background-color: var(--txt-color);
+  color: var(--dark-accent);
+}
+.brand {
+  color: var(--txt-color);
+}
+
+.left-nav-item > a,
+.left-nav-item > a > i {
+  color: var(--txt-color);
+}
