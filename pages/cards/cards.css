@@ -1,0 +1,32 @@
+@import "../shared.css";
+.card-container {
+  width: 15rem;
+}
+.card__actions a {
+  width: 100%;
+  text-align: center;
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__info {
+  text-align: center;
+}
+
+.wish-list-position {
+  position: relative;
+}
+.wish-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--txt-color);
+  color: var(--danger-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
