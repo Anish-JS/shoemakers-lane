@@ -26,3 +26,22 @@
   background-color: inherit;
   color: var(--txt-color);
 }
+.seconday-btn:hover {
+  color: var(--txt-color);
+}
+
+.left-nav-item > a,
+.left-nav-item > a > i {
+  color: var(--txt-color);
+}
+.navbar_header > a > i {
+  color: var(--txt-color);
+}
+
+.brand {
+  color: var(--txt-color);
+}
+
+.card__actions > a:hover {
+  color: var(--txt-color);
+}

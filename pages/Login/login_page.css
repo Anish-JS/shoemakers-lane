@@ -10,7 +10,7 @@
 
 .center-div {
   height: 91vh;
-  background-color: var(--bg-dull);
+  /* background-color: var(--bg-dull); */
   display: flex;
 
   align-items: center;
@@ -37,9 +37,7 @@
 .login-inputs {
   width: 100%;
 }
-.navbar_header > a > i {
-  color: var(--txt-color);
-}
+
 .card__info {
   width: 100%;
   display: flex;
@@ -50,12 +48,4 @@
 .textbox {
   background-color: var(--txt-color);
   color: var(--dark-accent);
-}
-.brand {
-  color: var(--txt-color);
-}
-
-.left-nav-item > a,
-.left-nav-item > a > i {
-  color: var(--txt-color);
 }
