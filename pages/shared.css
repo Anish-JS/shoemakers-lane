@@ -9,6 +9,7 @@
 
 .center {
   text-align: center;
+  color: var(--primary-color);
 }
 
 .brand-nav {
@@ -17,6 +18,9 @@
   align-items: center;
 }
 
+.bg-primary {
+  background-color: var(--primary-color);
+}
 .bg-dull {
   background-color: var(--bg-dull);
 }
