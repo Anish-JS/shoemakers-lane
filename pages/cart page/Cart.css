@@ -1,0 +1,46 @@
+@import "../shared.css";
+
+.section {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+  color: var(--primary-color);
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.img-height {
+  height: 350px;
+}
+.left-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  background-color: var(--txt-color);
+}
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.right-section {
+  background-color: var(--txt-color);
+}
+.quantity-input {
+  outline: none;
+  border: none;
+}
