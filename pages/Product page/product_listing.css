@@ -52,3 +52,9 @@ h3 {
 .navbar_header > a > i {
   color: var(--txt-color);
 }
+
+.price {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
