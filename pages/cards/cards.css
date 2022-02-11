@@ -1,4 +1,5 @@
 @import "../shared.css";
+/* Card specific */
 .card-container {
   width: 15rem;
 }
@@ -16,6 +17,7 @@
 .card__info {
   text-align: center;
 }
+/* WishList */
 .wish-list-position {
   position: relative;
 }
