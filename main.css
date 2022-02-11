@@ -1,15 +1,15 @@
 @import "./pages/shared.css";
 @import "./pages/cards/cards.css";
 
+/* Body */
+.body-bg {
+  background-color: var(--primary-color);
+}
+/* Sections */
 .section {
   background-color: var(--bg-dull);
   height: fit-content;
 }
-
-.body-bg {
-  background-color: var(--primary-color);
-}
-
 .top-section,
 .middle-section,
 .lower-section {
@@ -31,6 +31,7 @@
   flex-wrap: wrap;
 }
 
+/* Featured products */
 .featured {
   flex-grow: 1;
   display: flex;

@@ -1,6 +1,6 @@
 @import "../cards/cards.css";
 /* @import "../shared.css"; */
-
+/* Section */
 .section {
   display: flex;
   justify-content: space-between;
@@ -18,16 +18,16 @@
 
   background-color: var(--txt-color);
 }
-
+.right-section {
+  flex-grow: 1;
+  background-color: var(--bg-dull);
+}
+/* Headings */
 h3 {
   color: var(--primary-color);
 }
 
-.filter {
-  display: flex;
-  justify-content: space-between;
-}
-
+/* inputs */
 .checkbox-input {
   width: 12px;
   height: 12px;
@@ -36,15 +36,7 @@ h3 {
   width: 12px;
   height: 12px;
 }
-.clear {
-  color: var(--dark-accent);
-  text-decoration: underline;
-}
-
-.right-section {
-  flex-grow: 1;
-  background-color: var(--bg-dull);
-}
+/* Navigation items */
 .left-nav-item > a > i {
   color: var(--txt-color);
 }
@@ -53,8 +45,18 @@ h3 {
   color: var(--txt-color);
 }
 
+/* Filter component */
+.clear {
+  color: var(--dark-accent);
+  text-decoration: underline;
+}
+
 .price {
   display: flex;
   /* justify-content: center; */
   align-items: center;
+}
+.filter {
+  display: flex;
+  justify-content: space-between;
 }
