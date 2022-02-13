@@ -7,17 +7,7 @@
   --primary-color: #292524;
 }
 
-.center {
-  text-align: center;
-  color: var(--primary-color);
-}
-
-.brand-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
+/* Backgrounds */
 .bg-primary {
   background-color: var(--primary-color);
 }
@@ -25,6 +15,26 @@
   background-color: var(--bg-dull);
 }
 
+.center {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+/* Header */
+.brand-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  color: var(--txt-color);
+  background-color: var(--primary-color);
+}
+.navbar_header > a > i {
+  color: var(--txt-color);
+}
+
+/* Buttons */
 .primary-btn:hover {
   border: 2px solid var(--txt-color);
   background-color: inherit;
@@ -37,14 +47,6 @@
 .left-nav-item > a,
 .left-nav-item > a > i {
   color: var(--txt-color);
-}
-.navbar_header > a > i {
-  color: var(--txt-color);
-}
-
-.brand {
-  color: var(--txt-color);
-  background-color: var(--primary-color);
 }
 
 .card__actions > a:hover {
