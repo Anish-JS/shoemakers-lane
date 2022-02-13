@@ -48,3 +48,10 @@
   outline: none;
   border: none;
 }
+.btn-style {
+  color: var(--txt-color);
+}
+.btn-style:hover {
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
