@@ -1,5 +1,5 @@
 # [Shoemakers-lane](https://shoemakers-lane.netlify.app/)
-This is a place where you can search for the shoes you love categorically.
+This is a place where you can shop for the shoes you love categorically.
 This e-commerce site consists of a variety of footwear merchandise.
 
 ## The initial setting consists of the following pages:
